@@ -1,7 +1,11 @@
 {
-    "name": "testproject",
+    "name": "react-native-expo-router-template",
     "version": "1.0.0",
     "main": "expo-router/entry",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vladiusftw/react-native-expo-template.git"
+    },
     "scripts": {
         "start": "expo start",
         "android": "expo run:android",
@@ -67,6 +71,5 @@
         "@types/react": "~18.2.45",
         "@types/react-native-calendar-picker": "^8.0.0",
         "typescript": "^5.1.3"
-    },
-    "private": true
+    }
 }
