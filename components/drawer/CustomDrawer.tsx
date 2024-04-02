@@ -9,7 +9,6 @@ import {
     widthPercentageToDP as wp,
     heightPercentageToDP as hp,
 } from 'react-native-responsive-screen'
-import { Image } from 'expo-image'
 
 const CustomDrawer = (props: DrawerContentComponentProps) => {
     const currScreenIndex = props.state.index
@@ -21,10 +20,6 @@ const CustomDrawer = (props: DrawerContentComponentProps) => {
                 paddingRight: wp(6),
             }}
         >
-            <Image
-                source={require('../../assets/logo.png')}
-                style={styles.logo}
-            />
             <View style={{ marginTop: hp(6) }}>
                 {props.state.routeNames.map((route, index) => {
                     return (
